@@ -8,7 +8,7 @@ file="report.txt"
 	echo "<body>"
 	echo "Access logs with IOC indicators:"
 	echo "<br>"
-	echo "<table border=\"1\" cellspacing=\"0\" cellpadding=\"2\">"
+	echo "<table>"
 
 	while read -r ip dt page; do
 		[ -z "$ip" ] && continue
