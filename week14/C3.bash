@@ -4,9 +4,10 @@ file="report.txt"
 
 {
 	echo "<html>"
-	echo "<head><title>Access Logs with IOC indicators</title></head>"
+	echo "<head><title>C3</title></head>"
 	echo "<body>"
-	echo "<h2>Access logs with IOC indicators:</h2>"
+	echo "Access logs with IOC indicators:"
+	echo "<br>"
 	echo "<table border=\"1\" cellspacing=\"0\" cellpadding=\"2\">"
 
 	while read -r ip dt page; do
